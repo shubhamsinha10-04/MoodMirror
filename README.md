@@ -1,7 +1,7 @@
 # MoodMirror
 MoodMirror is a smart emotion-based music recommendation system built using deep learning.
 
-When you type a sentence like “I feel gloomy, suggest me sad Hindi songs,” it first uses a pre-trained model from Hugging Face called DistilRoBERTa. This model is loaded using the Transformers library and run with TensorFlow, allowing the system to detect your emotion from the text.
+When you type a sentence like “I feel gloomy, suggest me sad songs,” it first uses a pre-trained model from Hugging Face called DistilRoBERTa. This model is loaded using the Transformers library and run with TensorFlow, allowing the system to detect your emotion from the text.
 
 The model understands seven emotions — like joy, sadness, anger, and surprise — and predicts the one that best matches your input.
 
